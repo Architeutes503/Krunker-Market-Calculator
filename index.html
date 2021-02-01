@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Krunker-Market-Calculator</title>
+	<link rel="stylesheet" href="_css/style.css">
+	<script src="_script/main.js"></script>
+
+</head>
+
+<body>
+
+	<h1>Krunker Market Calculator</h1>
+	<main>
+		<div class="form-div">
+			<form id="eingabeFormular">
+				</p>
+				<p>
+					Buy price: <input type="number" name="buy" id="buy" step="any" min="1" required>
+				</p>
+				<p>
+					Next higher buy price:
+					<input type="number" name="nextSell" id="nextSell" step="any" min="1" required>
+				</p>
+				<p>Average sale price.
+					<input type="number" name="averageSell" id="averageSell" step="any" min="1">
+				</p>
+				<p>
+					<output id="output"></output>
+				</p>
+				<input type="submit" value="Submit">
+				<input type="reset" id="reset" value="Reset">
+
+			</form>
+		</div>
+	</main>
+
+</body>
+
+</html>

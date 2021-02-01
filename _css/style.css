@@ -1,0 +1,17 @@
+body{
+	background-color: #6785FF;
+	font-size: 35px;
+}
+
+h1 {
+	display: flex;
+	justify-content: center;
+	text-decoration: underline;
+}
+
+.form-div {
+	display: flex;
+  	justify-content: center;	 
+}
+
+
